@@ -20,6 +20,8 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 10%;
+  padding-left: 10%;
+  padding-right: 15px;
   background-color: #4892dc;
   display: flex;
   justify-content: space-between;
@@ -71,6 +73,17 @@ font-size: 25px;
   background: #4892dc;
   animation: showRight 1s forwards;
   animation-delay: .4s;
+}
+
+.icon-navbar {
+  display: none;
+}
+
+.icon-navbar i{
+  background: none;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
 }
 
 .navbar a {
@@ -327,7 +340,9 @@ font-size: 25px;
 .container {
   background-color: #333;
   /* background: url(./asset/img/iqbal-back.png); */
-  background: url(./asset/img/iqbal-back2.png); 
+  background: url(./asset/img/iqbal-back2.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
 
 .row-1{
@@ -607,20 +622,24 @@ html {
   width: 30%;
   padding: 2rem 4rem;
   font-size: 1.2rem;
+  
 }
 
 /* background Page 4 */
 #contact {
   background: url(./asset/img/iqbal-back.png);
   background-size: cover;
-  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
+  /* background-position: center; */
 
   /* akhir - css [forum Komunikasi] */
 
   /* part End - css [Desk our Sosial in Web] */
   .main-footer {
     background: black;
+    background-size:cover ;
     color: #fff;
   }
   .main-footer__upper {
@@ -839,4 +858,21 @@ html {
 
   /* akhir - css [Desk our Sosial in Web] */
 
-  
+  @media screen and (max-width: 640px) {
+    .navbar {
+      display: none;
+    }
+    .icon-navbar {
+      display: block;
+    }
+    .projects__row {
+      flex-direction: column;
+      margin-bottom: 25px;
+    }
+    .projects__row-content {
+      text-align: center;
+    }
+    .contact__form-container{
+      text-align: center;
+    }
+  }
