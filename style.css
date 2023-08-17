@@ -8,6 +8,9 @@
 }
 
 /* part 1 - css [iqbal'Qz] */
+html {
+  scroll-padding-top: 80px;
+}
 
 body {
   color: #ededed;
