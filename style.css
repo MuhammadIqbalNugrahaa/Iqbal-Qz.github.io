@@ -858,7 +858,7 @@ html {
 
   /* akhir - css [Desk our Sosial in Web] */
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 788px) {
     .navbar {
       display: none;
     }
@@ -867,10 +867,13 @@ html {
     }
     .projects__row {
       flex-direction: column;
+      padding-top: 40px;
       margin-bottom: 25px;
     }
     .projects__row-content {
       text-align: center;
+      padding-bottom: 40px;
+      margin-bottom: 40px;
     }
     .contact__form-container{
       text-align: center;
