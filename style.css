@@ -396,22 +396,17 @@ box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
 
 
 .sidebar {
-  position: relative;
-  flex: 1;
-  padding-left: 20px;
-  margin: 0%;
+  text-align: center;
   /* background-color: purple; */
 }
 
 .img1 {
   height: 460px;
-  width: 440px;
-  margin: 80px;
+  width: 100%;
   border: 3px solid #5b7894;
   /* Ketebalan dan warna border */
   border-radius: 5%;
   /* Menggunakan border-radius untuk membuat sudut border menjadi melengkung */
-  padding: 6px;
 }
 
 /* akhir - css [Skill and Pict]*/
@@ -619,7 +614,7 @@ html {
   font-size: 1.6rem;
 }
 .contact__btn { 
-  width: 30%;
+  width: fit-content;
   padding: 2rem 4rem;
   font-size: 1.2rem;
   
